@@ -1,0 +1,98 @@
+.clipped {
+	width: 100%;
+	height: 50vh;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+	position: absolute;
+	z-index: -1;
+}
+
+.bg-red {
+	background-color: #df2c2c;
+}
+
+.section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 50vh;
+	padding: 0 4em 0 4em;
+}
+
+/* .section .left {
+	margin-right: auto;
+}
+
+.section .right {
+	margin-left: auto;
+} */
+
+span.title {
+	font-size: 2.2em;
+	color: white;
+}
+span.title.sub-title {
+	width: 100%;
+	text-align: right;
+	font-size: 1em;
+	color: rgb(218, 218, 218);
+}
+
+img {
+	width: 90%;
+	padding-top: 25%;
+}
+
+/* .section {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	height: 50vh;
+	padding: 0 4em 0 4em;
+}
+
+.section .left {
+	margin-right: auto;
+}
+
+.section .right {
+	margin-left: auto;
+}
+
+img {
+	position: absolute;
+	transform: scale(0.75);
+	z-index: 1;
+}
+
+.section.section-slope-down {
+	justify-content: flex-end;
+	align-items: center;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+}
+
+.section.section-slope-up {
+	justify-content: flex-start;
+	clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 100%);
+}
+
+.section .flex-elem {
+	display: flex;
+	flex-flow: column;
+}
+
+.section .flex-elem > span.title {
+	font-size: 2.5em;
+	color: white;
+}
+.section .flex-elem > span.title.sub-title {
+	width: 100%;
+	text-align: right;
+	font-size: 1em;
+	color: rgb(218, 218, 218);
+}
+
+.bg-red {
+	background-color: #df2c2c;
+} */
