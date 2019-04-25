@@ -40,6 +40,11 @@ export class LandingPage extends Component {
 		this.login(this.state.user);
 	}
 
+	componentDidMount = async () => {
+		if (auth.isAuthenticated())
+			await auth.logout();
+	}
+
 	render() {
 		return (
 			<div>
