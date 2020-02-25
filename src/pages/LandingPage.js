@@ -55,7 +55,7 @@ export class LandingPage extends Component {
 				<Row>
 					<Col>
 						<div className="section">
-							<img src="http://quomodosoft.com/html/lunatic/lunatic/images/mobile-1.png" alt="iphone" />
+							<img src="https://moose-rando.s3.us-east-2.amazonaws.com/mobile-1.png" alt="iphone" />
 						</div>
 					</Col>
 					<Col>

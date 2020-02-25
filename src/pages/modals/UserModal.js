@@ -29,7 +29,8 @@ const ProfileImageStyle = {
 	border: "3px solid black",
 	width: "25%",
 	margin: "auto",
-	marginBottom: "10px"
+	marginBottom: "10px",
+	paddingTop: "0px"
 }
 
 export default UserModal
