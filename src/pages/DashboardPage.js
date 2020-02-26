@@ -20,7 +20,7 @@ export class DashboardPage extends Component {
 	async componentDidMount() {
 
 		// get the user's employee object
-		await axios.get('/api/employee')
+		await axios.get(`${process.env.REACT_APP_GIGGZ_API}/api/employee`)
 			.then(res => {
 				console.log(res);
 				this.setState({ employee: res.data.employee })

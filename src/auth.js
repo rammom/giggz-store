@@ -29,7 +29,7 @@ class Auth {
 
 	async register(body, success, fail) {
 		console.log("registering...");
-		await axios.post('/auth/register', body)
+		await axios.post(`${process.env.REACT_APP_GIGGZ_API}/auth/register`, body)
 			.then(res => {
 				return success(res);
 			})
@@ -41,7 +41,7 @@ class Auth {
 	async login(body, success, fail) {
 		console.log("logging in...");
 		console.log(body);
-		await axios.post('/auth/employee-login', body)
+		await axios.post(`${process.env.REACT_APP_GIGGZ_API}/auth/employee-login`, body)
 			.then(res => {
 				localStorage.setItem('giggz-emp-tkn', res.data.token);
 				return success ? success(res) : null;
