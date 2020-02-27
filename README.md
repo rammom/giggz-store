@@ -3,3 +3,8 @@
 
 Digitally connecting small businesses through appointment bookings across all platforms.
 Powered by Node.js, Express.js, React.js, and MongoDB.
+
+## Credentials
+Here are some demo credentials so you can enter the deployed app
+**email: ** jordanna.reeves@gmail.com
+**password: ** passw0rd._!?
